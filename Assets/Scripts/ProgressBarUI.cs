@@ -32,9 +32,7 @@ public class ProgressBarUI : MonoBehaviour
         if (e.progressNormalized == 0f || e.progressNormalized == 1f)
         {
             Hide();
-        }
-        else
-        {
+        } else {
             Show();
         } 
     }

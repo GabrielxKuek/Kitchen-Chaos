@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CuttingCounter : BaseCounter, IHasProgress
 {
-    public event EventHandler <IHasProgress.OnProgressChangedEventArgs> OnProgressChanged;
+    public event EventHandler<IHasProgress.OnProgressChangedEventArgs> OnProgressChanged;
     public event EventHandler OnCut;
     
     [SerializeField] private CuttingRecipeSO[] cuttingRecipeSOArray;
@@ -29,7 +29,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
 
                     OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs
                     {
-                        progressNormalized = (float) cuttingProgress / cuttingRecipeSO.cuttingProgressMax
+                        progressNormalized = (float)cuttingProgress / cuttingRecipeSO.cuttingProgressMax
                     });
                 }
 
@@ -52,8 +52,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
                         GetKitchenObject().DestroySelf();
                     }
                 }
-            }
-            else
+            } else
             {
                 // player not carrying anything
                 GetKitchenObject().SetKitchenObjectParent(player);
@@ -63,7 +62,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
 
     public override void InteractAlternate(Player player)
     {
-        if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()) )
+        if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()))
         {
             // there is a KitchenObject here AND it can be cut
             cuttingProgress += 1;
@@ -94,7 +93,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
         return cuttingRecipeSO != null;
     }
         
-    private KitchenObjectSO GetOutputForInput (KitchenObjectSO inputKitchenObjectSO)
+    private KitchenObjectSO GetOutputForInput(KitchenObjectSO inputKitchenObjectSO)
     {
         CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeSOWithInput(inputKitchenObjectSO);
 

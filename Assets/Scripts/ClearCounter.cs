@@ -45,8 +45,7 @@ public class ClearCounter : BaseCounter
                         }
                     }
                 }
-            }
-            else
+            } else
             {
                 // player not carrying anything
                 GetKitchenObject().SetKitchenObjectParent(player);

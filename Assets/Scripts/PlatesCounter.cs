@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlatesCounter : BaseCounter
 { // spawns plates every set amount of time
@@ -15,7 +14,7 @@ public class PlatesCounter : BaseCounter
 
     private float spawnPlateTimer;
     private int platesSpawnedAmount;
-    private int platesSpawnedMax = 4;
+    private int platesSpawnedAmountMax = 4;
 
     private void Update()
     {
@@ -25,7 +24,7 @@ public class PlatesCounter : BaseCounter
             //KitchenObject.SpawnKitchenObject(plateKitchenObjectSO, this);
             spawnPlateTimer = 0f;
 
-            if (platesSpawnedAmount < platesSpawnedMax)
+            if (platesSpawnedAmount < platesSpawnedAmountMax)
             {
                 platesSpawnedAmount += 1;
 

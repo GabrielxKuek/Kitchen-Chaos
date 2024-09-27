@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class SelectedCounterVisual : MonoBehaviour
@@ -19,8 +18,7 @@ public class SelectedCounterVisual : MonoBehaviour
         {
             Show();
 
-        } else
-        {
+        } else {
             Hide();
         }
     }
