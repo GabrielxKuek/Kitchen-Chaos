@@ -52,7 +52,7 @@
 
 # Unity3D generated files
 *.prefab
-*.unity
+# *.unity
 
 # Ignore the following when using Unity Collaborate
 /[Cc]ollab/
