@@ -9,13 +9,13 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
 
     private KitchenObject kitchenObject;
 
-    public virtual void Interact (Player player)
+    public virtual void Interact(Player player)
     {
         Debug.LogError("BaseCounter.Interact(); This is child abuse.");
     }
     public virtual void InteractAlternate(Player player)
     {
-        Debug.LogError("BaseCounter.InteractAlternate(); This is child abuse.");
+        // Debug.LogError("BaseCounter.InteractAlternate(); This is child abuse.");
     }
 
     public Transform GetKitchenObjectFollowTransform()

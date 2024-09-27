@@ -130,7 +130,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
                 // cannot move only on x axis
 
                 // attempt only z movement
-                Vector3 moveDirZ = new Vector3(0, 0, moveDir.z);
+                Vector3 moveDirZ = new Vector3(0, 0, moveDir.z).normalized;
                 canMove = moveDir.z != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirZ, moveDistance);
 
                 if (canMove)
