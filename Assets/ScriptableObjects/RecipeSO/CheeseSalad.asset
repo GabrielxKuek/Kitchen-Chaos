@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2eb5af5ab53f9d44b0f285611874fe2, type: 3}
+  m_Name: CheeseSalad
+  m_EditorClassIdentifier: 
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: cafc1edc14c2e7042a2abe4a54489f18, type: 2}
+  - {fileID: 11400000, guid: 0f55cb5f93983204cbbb8997b24f9487, type: 2}
+  - {fileID: 11400000, guid: 9e52406503b50f447be010695035abff, type: 2}
+  recipeName: Cheese Salad
