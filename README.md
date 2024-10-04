@@ -15,5 +15,5 @@ All keybinds are configurable! Check it out in the Options Menu
 
 # Set-up
 Download project files <br>
-Open the project with Unity Hub v2023.1.1
+Open the project with Unity Hub v2023.1.1 <br>
 Play Game
