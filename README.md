@@ -60,7 +60,8 @@ All controls are fully configurable through the Options Menu!
 This project was developed by following CodeMonkey's excellent tutorials <br>
 - [Tutorial on his Website](https://unitycodemonkey.com/kitchenchaoscourse.php)<br>
 - [Tutorial on his Youtube Channel](https://www.youtube.com/watch?v=AmGSEH7QcDg)<br>
-The tutorial emphasizes professional coding practices and proper software architecture, making it an invaluable learning resource for aspiring game developers.
+
+Thank you Mr Monkey!
 
 ## 📝 License
 This project is for educational purposes and follows CodeMonkey's tutorial guidelines. All assets and original code concepts belong to their respective owners.
