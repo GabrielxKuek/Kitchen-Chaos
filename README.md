@@ -1,99 +1,71 @@
-# Kitchen Chaos 🎮
-
-<div align="center">
-  
-![Kitchen Chaos Gameplay](../readmeAssets/mainMenu.gif)
+# Kitchen Chaos <img src="readmeAssets/mainMenu.gif" alt="Kitchen Chaos Main Menu">
 
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
-[![C#](https://img.shields.io/badge/C%23-Language-brightgreen?style=flat&logo=c-sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![CodeMonkey](https://img.shields.io/badge/Tutorial-CodeMonkey-red?style=flat)](https://unitycodemonkey.com/kitchenchaoscourse.php)
+[![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Follow Tutorial](https://img.shields.io/badge/Tutorial-CodeMonkey-red.svg?style=flat)](https://unitycodemonkey.com/kitchenchaoscourse.php)
+
+<h4 align="center">
+  <a href="#key-features">Features</a> ·
+  <a href="#gameplay-preview">Preview</a> ·
+  <a href="#technical-highlights">Technical Details</a> ·
+  <a href="#getting-started">Getting Started</a>
+</h4>
 
 ---
 
-*My first complete Unity game project, focusing on industry-standard code practices and clean architecture*
+Kitchen Chaos is my first complete Unity game project, developed by following CodeMonkey's comprehensive tutorial. This project was specifically chosen as it emphasizes writing clean, maintainable, and industry-standard code rather than quick prototypes. The focus is on learning professional game development practices and proper software architecture.
 
-[Game Features](#game-features) · [Learning Outcomes](#learning-outcomes) · [Setup](#setup) · [Screenshots](#screenshots)
+## Key Features
 
-</div>
+- **Fast-paced Cooking Action**: Manage multiple recipes simultaneously under time pressure
+- **Complete Game Loop**: From main menu to game over screen with score tracking
+- **Polished UI/UX**: Including pause menu, options, and tutorial screens
+- **Customizable Controls**: Fully rebindable keyboard and gamepad inputs
+- **Audio System**: Background music and sound effects with adjustable volumes
 
-## About The Project
+## Gameplay Preview
 
-Kitchen Chaos is a fast-paced cooking game where players must manage multiple recipes, ingredients, and kitchen stations under time pressure. This project was developed following CodeMonkey's comprehensive tutorial, with a strong emphasis on writing clean, maintainable, and industry-standard code rather than quick prototypes.
+| Feature | Screenshot |
+|---------|------------|
+| Main Menu | <img src="readmeAssets/mainMenu.gif" width="400"> |
+| Gameplay | <img src="readmeAssets/gameplayScreen.png" width="400"> |
+| Successful Delivery | <img src="readmeAssets/successfulDeliveryScreen.png" width="400"> |
+| Options & Keybinds | <img src="readmeAssets/keybindsAndOptionsScreen.png" width="400"> |
 
-### Technologies & Concepts Learned
+## Technical Highlights
 
-- **Architecture Patterns**
-  - Singleton Pattern
-  - State Machine Implementation
-  - Event-Driven Programming
-  
-- **Unity Specific**
-  - Custom Character Controller
-  - Cinemachine Integration
-  - New Input System
-  - Post Processing
-  - ScriptableObjects
-  - ShaderGraph
+This project implements numerous advanced Unity and C# concepts:
 
-- **Programming Practices**
-  - C# Events and Delegates
-  - Interfaces
-  - Clean Code Principles
-  - Professional Naming Conventions
-  - Code Documentation
-
-## Game Features
-
-| Feature | Description |
-|---------|-------------|
-| 🎮 Customizable Controls | Fully rebindable keyboard and gamepad controls |
-| 🔊 Audio Management | Background music and SFX with adjustable volumes |
-| 🏆 Score System | Track successful deliveries and aim for high scores |
-| 💾 Save System | Persistent settings and keybind configurations |
-
-## Screenshots
-
-<div align="center">
-
-| Gameplay | Delivery System |
-|:---:|:---:|
-| ![Gameplay](../readmeAssets/gameplayScreen.png) | ![Delivery](../readmeAssets/successfulDeliveryScreen.png) |
-
-| Options Menu | Tutorial |
-|:---:|:---:|
-| ![Options](../readmeAssets/keybindsAndOptionsScreen.png) | ![Tutorial](../readmeAssets/tutorialScreen.png) |
-
-</div>
-
-## Setup
-
-### Prerequisites
-- Unity 2021.3.3.8f1
-- Basic understanding of C# and Unity concepts
-
-### Installation
-1. Clone this repository
-2. Open project in Unity Hub with version 2021.3.3.8f1
-3. Load the main scene and press Play
+- **State Machine Pattern**: Robust game state management
+- **Singleton Pattern**: Efficient manager classes
+- **C# Events & Interfaces**: Clean communication between components
+- **Scriptable Objects**: Flexible data management
+- **Input System**: Modern Unity input handling
+- **Shader Graph**: Custom visual effects
+- **Cinemachine**: Professional camera control
+- **Post Processing**: Enhanced visual quality
+- **Scene Management**: Proper loading and transitions
 
 ## Controls
-- **WASD** - Movement
-- **E** - Interact
-- **F** - Alternative Interact
-- **ESC** - Pause Menu
 
-*All controls can be rebound in the Options menu*
+- **WASD**: Movement
+- **E**: Interact
+- **F**: Perform Actions
+- **ESC**: Options Menu
+
+All controls are fully configurable through the Options Menu!
+
+## Getting Started
+
+1. Clone this repository
+2. Open with Unity Hub v2021.3.3.8f1
+3. Open the main scene in Assets/Scenes
+4. Press Play to run in editor
 
 ## Acknowledgments
 
-- Tutorial by [CodeMonkey](https://unitycodemonkey.com/kitchenchaoscourse.php)
-- Original course available on [YouTube](https://www.youtube.com/watch?v=AmGSEH7QcDg)
+This project was developed by following CodeMonkey's excellent [Kitchen Chaos Tutorial](https://unitycodemonkey.com/kitchenchaoscourse.php). The tutorial emphasizes professional coding practices and proper software architecture, making it an invaluable learning resource for aspiring game developers.
 
----
+## License
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/your-linkedin)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen?style=flat&logo=github)](https://github.com/GabrielxKuek)
-
-</div>
+This project is for educational purposes and follows CodeMonkey's tutorial guidelines. All assets and original code concepts belong to their respective owners.
