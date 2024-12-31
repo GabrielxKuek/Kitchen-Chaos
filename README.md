@@ -28,9 +28,13 @@ Kitchen Chaos is my first complete Unity game project, developed by following Co
 | Feature | Screenshot |
 |---------|------------|
 | Main Menu | <img src="readmeAssets/mainMenu.gif" width="400"> |
+| Tutorial | <img src="readmeAssets/tutorialScreen.png" width="400"> |
 | Gameplay | <img src="readmeAssets/gameplayScreen.png" width="400"> |
-| Successful Delivery | <img src="readmeAssets/successfulDeliveryScreen.png" width="400"> |
 | Options & Keybinds | <img src="readmeAssets/keybindsAndOptionsScreen.png" width="400"> |
+| Pause Screen | <img src="readmeAssets/pauseScreen.png" width="400"> |
+| Successful Delivery | <img src="readmeAssets/successfulDeliveryScreen.png" width="400"> |
+| Failed Delivery | <img src="readmeAssets/failedDeliveryScreen.png" width="400"> |
+| End Screen | <img src="readmeAssets/endScreen.png" width="400"> |
 
 ## Technical Highlights
 
